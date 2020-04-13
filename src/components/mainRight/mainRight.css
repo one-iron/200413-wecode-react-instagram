@@ -1,0 +1,87 @@
+
+.myProfile {
+    display: flex;
+    align-items: center;
+    margin : 8px;
+}
+.profileBox {
+    margin-left: 15px;
+}
+
+.story {
+    height: 220px;
+    margin-top: 15px;
+    border: 1px lightgray solid;
+    border-radius: 3px;
+}
+.storyMenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.storyList {
+    height: 165px;
+    overflow:auto;
+}
+.storyText01 {
+    padding: 15px 0 15px 15px;
+    color: gray;
+    font-size: 14px;
+    font-weight: bold;
+    justify-self: left;
+}
+.storyText02 {
+    padding: 15px 15px 15px 0;
+    font-weight: bold;
+    justify-self: right;
+}
+.storyProfile {
+    margin-left: 15px;
+}
+
+.follow{
+    width: 60px;
+    text-align: right;
+    font-weight: bold;
+    color: #0095F6;
+}
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: lightgray;
+    border-radius: 50px;
+  }
+
+
+
+
+  .profile01 {
+      font-weight: bold;
+  }
+
+  .profile02 {
+      width: 150px;
+      color: gray;
+      font-weight: lighter;
+  }
+
+  .storyProfile img{
+    padding: 1px;
+    border-radius: 50%;
+    border: 2px #DD3B78 solid;
+    width: 35px;
+  }
+

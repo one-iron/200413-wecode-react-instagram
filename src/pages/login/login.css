@@ -1,0 +1,73 @@
+body{
+    padding: 10px;
+    background-color: #fafafa;
+}
+
+container {
+    display: block;
+    position: relative;
+    background-color: #ffffff;
+    width: 350px;
+    height: 400px;
+    margin: 5% auto 0 auto;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 1px;
+    text-align: center;
+}
+
+header img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+content {
+    display: block;
+    width: 350px;
+}
+
+.loginInput input {
+    width: 265px;
+    height: 15px;
+    margin: 2px 0;
+    background-color: #fafafa;
+    border : 1px solid lightgray;
+    border-radius: 3px;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+input::placeholder {
+    text-align: left;
+    color: gray;
+  }
+
+
+.loginButton {
+    border: none;
+    border-radius: 3px;
+    width: 282px;
+    height: 35px;
+    margin: 10px;
+    cursor: pointer;
+
+    font-weight: bold;
+    background-color: #B2DFFC;
+    /* 로그인 가능 칼라 : #0095F6 */
+    /* 로그인 블가능 칼라 : #B2DFFC */
+    color: white;
+}
+
+
+
+
+footer {
+    display: inline;
+    position: absolute;
+    bottom: 20px;
+    margin-left: -64px;
+    cursor: pointer;
+
+    font-size: 12px;
+    color: #00376B;
+}
